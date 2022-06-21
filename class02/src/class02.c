@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : class02.c
- Author      : 
+ Author      : Thousand AI
  Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
