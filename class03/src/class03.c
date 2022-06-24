@@ -95,7 +95,6 @@ int main(void) {
 	int max = (x > y) ? x : y;
 	max = (z > max) ? z : max;
 	printf("%d", max);
-	return 0;
 	*/
 
 	// switch
