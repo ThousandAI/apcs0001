@@ -142,7 +142,7 @@ int main(void) {
 	int sum = 0,i = 1;
 	scanf("%d", &num);
 	while(i <= num){
-		sum = sum + i;  // sum += count;
+		sum = sum + i;  // sum += i;
 		i ++;
 	}
 	printf("%d", sum);
