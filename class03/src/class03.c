@@ -184,11 +184,14 @@ int main(void) {
 	*/
 
 	// 使用者輸入n，印出 0 1 2 3 4 5 ... n-1
-	int n;
-	scanf("%d", &n);
-	for(int i = 0; i < n; i++){
-		printf("%d ",i);
-	}
+//	int n;
+//	scanf("%d", &n);
+//	for(int i = 0; i < n; i++){
+//		printf("%d ",i);
+//	}
+	int num;
+	num = 42 % -5;
+	printf("%d", num);
 
 	return 0;
 
