@@ -115,20 +115,26 @@ int main(void) {
 
 	// 函式介紹
 	// 系統定義函式，必須要引入 <stdlib.h>
+	/*
 	int ans = abs(-3); // 絕對值
 	printf("%d", ans);
+	*/
 
-
+	// 使用者定義函式
+	show();
+	say_hello("Thousand");
+	double ans = get_bmi(175,68);
+	printf("%.2f", ans);
 	return 0;
 }
 
 
 void show(){
-	printf("Welcome!");
+	printf("Welcome!\n");
 }
 
 void say_hello(char name[]){
-	printf("Hello %s", name);
+	printf("Hello %s\n", name);
 }
 
 double get_bmi(double height, double weight){
