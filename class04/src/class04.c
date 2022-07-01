@@ -144,19 +144,3 @@ double get_bmi(double height, double weight){
 	return bmi;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
