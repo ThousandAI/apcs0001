@@ -225,26 +225,25 @@ int main(void){
 
 int main(void){
 	int scores[3][5] = {{3, 2, 5, 7, 8},
-						{1, 2, 8, 10, 4},
-						{6, 8, 2, 3, 8}};
+			    {1, 2, 8, 10, 4},
+			    {6, 8, 2, 3, 8}};
 
 	int row_sum[3] = {0, 0, 0};
 	int col_sum[5] = {0, 0, 0, 0, 0};
 
 	for(int i = 0; i < 3; i++){
 		for(int j = 0; j < 5; j++){
-			// write your code here
+			row_sum[i] += scores[i][j];
+			col_sum[j] += scores[i][j];
 		}
+	}
+	printf("row: ");
+	for(int i = 0; i< 3; i++){
+		printf("%d ", row_sum[i]);
+	}
+	printf("\ncol: ");
+	for(int j = 0; j < 5; j++){
+		printf("%d ", col_sum[j]);
 	}
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
